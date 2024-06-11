@@ -17,15 +17,15 @@ Module Program
                         For i = 1 To cislo
                             soucet = soucet + i
                         Next
-                        Console.WriteLine($"Souèet od 1 do {cislo} je {soucet}")
+                        Console.WriteLine($"Součet od 1 do {cislo} je {soucet}")
                     Else
-                        Console.WriteLine("Chyba musíte zadat jen celá èísla")
+                        Console.WriteLine("Chyba musíte zadat jen celá čísla")
                     End If
                 Else
                     Console.WriteLine("Zadali jste moc velkou hodnotu.")
                 End If
             Else
-                Console.WriteLine("Nelze poèítat se zápornými èísly")
+                Console.WriteLine("Nelze počítat se zápornými čísly")
             End If
         Loop
 
